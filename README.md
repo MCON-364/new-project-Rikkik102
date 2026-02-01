@@ -88,7 +88,7 @@ Demonstrates both labeled continue (on 0) and labeled break (on 99).
 Use this package structure:
 ```
 src/main/java/mcon364/las/touro/edu/Main.java
-src/test/java/mcon364/las/touro/edu/MainSignatureTest.java
+src/test/java/mcon364/las/touro/edu/ - your unit tests
 ```
 
 ## Testing
@@ -101,7 +101,7 @@ You do not need to test the main method. Tests must be placed in the correct Mav
 
 ## Autograding
 - GitHub Actions runs `mvn test` to validate your implementation
-- In the autograder, `USER` environment variable is set to a known value
+- In the autograder, `USERNAME` environment variable is set to a known value
 
 ## Running Tests Locally
 ```bash
